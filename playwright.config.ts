@@ -5,7 +5,7 @@ export default defineConfig({
         headless: false,
         viewport: { width: 1280, height: 800 },
         launchOptions: {
-            slowMo: 500, // сповільнення на кожну дію
+            slowMo: 500,
         },
         video: "on",
         screenshot: "on",
